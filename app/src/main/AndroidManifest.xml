@@ -11,7 +11,7 @@
         android:theme="@style/Theme.MyCalculator">
         <meta-data
             android:name="com.google.android.actions"
-            android:resource="@xml/button_new" />
+            android:resource="@drawable/button_new" />
 
         <activity
             android:name=".MainActivity"
