@@ -11,7 +11,7 @@ import com.alyona29.mycalculator.R
 import com.alyona29.mycalculator.Fragments.BaseFragment.Companion.getAllViews
 import com.alyona29.mycalculator.MainActivity
 
-class ScienceKeyboardFragment: Fragment() {
+class ScienceFragment: Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,

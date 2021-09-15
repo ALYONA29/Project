@@ -14,9 +14,10 @@ import android.widget.TextView
 import android.widget.Toast
 import org.jetbrains.annotations.NotNull
 import com.alyona29.mycalculator.Fragments.BaseFragment
+import com.alyona29.mycalculator.Fragments.ScienceFragment
 //import org.mariuszgromada.math.mxparser.Expression
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     companion object {
         val functions = listOf("sin", "cos", "tan", "ctg", "ln", "log2", "log10", "sqrt")
@@ -31,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         when(BuildConfig.FLAVOR) {
             "free" -> onCreateFreeVersion()
-            //"paid" -> onCreatePaidVersion()
+            "paid" -> onCreatePaidVersion()
         }
 
         //textExpression = findViewById(R.id.expression)
