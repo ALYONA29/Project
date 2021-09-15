@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             "paid" -> onCreatePaidVersion()
         }
 
-        //textExpression = findViewById(R.id.expression)
+        textExpression = findViewById(R.id.expression)
         textExpression.movementMethod = ScrollingMovementMethod()
     }
 
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun onCreateFreeVersion() {
         val fragmentTransaction = supportFragmentManager.beginTransaction()
-        //fragmentTransaction.add(R.id.base_frame, BaseFragment()).commit()
+        fragmentTransaction.add(R.id.base_frame, BaseFragment()).commit()
     }
 
     private fun onCreatePaidVersion() {
@@ -59,13 +59,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         val display = (getSystemService(Context.WINDOW_SERVICE) as WindowManager).defaultDisplay
 
         if(display.orientation % 2 == 0) {
-            //keyboardViewPager = findViewById(R.id.keyboards_vp)
+            keyboardViewPager = findViewById(R.id.keyboards_vp)
             keyboardViewPager.adapter = MainActivityAdapter(supportFragmentManager)
-        } /*else {
+        } else {
             val fragmentTransaction = supportFragmentManager.beginTransaction()
             fragmentTransaction.add(R.id.base_frame, BaseFragment())
                 .add(R.id.science_frame, ScienceFragment()).commit()
-        }*/
+        }
 
     }
 

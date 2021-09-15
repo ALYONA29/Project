@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MyCalculator/app/src/free/res/layout-land/activity_main.xml" value="0.1" />
         <entry key="..\:/MyCalculator/app/src/main/res/drawable/button.xml" value="0.1" />
         <entry key="..\:/MyCalculator/app/src/main/res/drawable/button_new.xml" value="0.14351851851851852" />
+        <entry key="..\:/MyCalculator/app/src/main/res/layout-land/activity_main.xml" value="0.1" />
         <entry key="..\:/MyCalculator/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/MyCalculator/app/src/main/res/layout/base_fragment.xml" value="0.1" />
         <entry key="..\:/MyCalculator/app/src/main/res/layout/science_fragment.xml" value="0.1" />
+        <entry key="..\:/MyCalculator/app/src/paid/res/layout-land/activity_main.xml" value="0.1" />
+        <entry key="..\:/MyCalculator/app/src/paid/res/layout/activity_main.xml" value="0.1" />
       </map>
     </option>
   </component>
