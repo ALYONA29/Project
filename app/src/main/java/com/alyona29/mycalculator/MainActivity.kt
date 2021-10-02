@@ -15,7 +15,7 @@ import android.widget.Toast
 import org.jetbrains.annotations.NotNull
 import com.alyona29.mycalculator.Fragments.BaseFragment
 import com.alyona29.mycalculator.Fragments.ScienceFragment
-//import org.mariuszgromada.math.mxparser.Expression
+import org.mariuszgromada.math.mxparser.Expression
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -88,14 +88,29 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
         if(textExpression.text.isNotEmpty()) {
 
-            /*val expr = Expression(textExpression.text.toString())
+            /*if (BuildConfig.FLAVOR.equals("free") || BuildConfig.FLAVOR.equals("freeDebug")) {
+                if((textExpression.text.toString().contains("/0", ignoreCase = true)) == true
+                    || (textExpression.text.toString().contains("/ 0", ignoreCase = true)) == true)
+                {
+                    Toast.makeText(baseContext, "Buy free version", Toast.LENGTH_SHORT).show()
+                }
+            }*/
+
+            val expr = Expression(textExpression.text.toString())
 
             if(expr.checkSyntax()) {
-                textExpression.text = expr.calculate().toString()
-            } else {
+                if ((BuildConfig.FLAVOR.equals("free") || BuildConfig.FLAVOR.equals("freeDebug")) && (textExpression.text.toString().contains("/0", ignoreCase = true) || textExpression.text.toString()
+                        .contains("/ 0", ignoreCase = true))) {
+                        Toast.makeText(baseContext, "Buy free version", Toast.LENGTH_SHORT).show()
+                }
+                else {
+                    textExpression.text = expr.calculate().toString()
+                }
+            }
+            else {
                 Log.i("Syntax error", expr.errorMessage)
                 Toast.makeText(baseContext, "Invalid expression, please try again", Toast.LENGTH_SHORT).show()
-            }*/
+            }
 
         }
 

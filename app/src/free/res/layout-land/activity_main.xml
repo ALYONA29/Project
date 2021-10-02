@@ -18,7 +18,7 @@
         <TextView
             android:id="@+id/expression"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="71dp"
             android:ellipsize="none"
             android:fontFamily="monospace"
             android:gravity="end|bottom"
@@ -34,14 +34,14 @@
     <LinearLayout
         android:id="@+id/land_keyboards"
         android:layout_width="match_parent"
-        android:layout_weight="5"
+        android:layout_weight="6"
         android:orientation="horizontal"
         android:layout_height="0dp">
 
         <FrameLayout
+            android:id="@+id/base_frame"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/base_frame"/>
+            android:layout_height="match_parent" />
 
         <FrameLayout
             android:layout_width="match_parent"
