@@ -3,18 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MyCalculator/app/src/free/res/layout-land/activity_main.xml" value="0.1" />
-        <entry key="..\:/MyCalculator/app/src/free/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/MyCalculator/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19583333333333333" />
-        <entry key="..\:/MyCalculator/app/src/main/res/drawable/button.xml" value="0.1" />
-        <entry key="..\:/MyCalculator/app/src/main/res/drawable/button_new.xml" value="0.14351851851851852" />
-        <entry key="..\:/MyCalculator/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19583333333333333" />
-        <entry key="..\:/MyCalculator/app/src/main/res/layout-land/activity_main.xml" value="0.1" />
+        <entry key="..\:/MyCalculator/app/src/main/res/drawable/rounded_mode_button.xml" value="0.19282051282051282" />
+        <entry key="..\:/MyCalculator/app/src/main/res/drawable/rounded_num_button.xml" value="0.19282051282051282" />
+        <entry key="..\:/MyCalculator/app/src/main/res/drawable/rounded_primary_action_button.xml" value="0.19282051282051282" />
+        <entry key="..\:/MyCalculator/app/src/main/res/drawable/rounded_secondary_action_button.xml" value="0.19282051282051282" />
+        <entry key="..\:/MyCalculator/app/src/main/res/drawable/rounder_dimmed_mode_button.xml" value="0.19282051282051282" />
         <entry key="..\:/MyCalculator/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/MyCalculator/app/src/main/res/layout/base_fragment.xml" value="0.1" />
-        <entry key="..\:/MyCalculator/app/src/main/res/layout/science_fragment.xml" value="0.1" />
-        <entry key="..\:/MyCalculator/app/src/paid/res/layout-land/activity_main.xml" value="0.1" />
-        <entry key="..\:/MyCalculator/app/src/paid/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/MyCalculator/app/src/main/res/layout/fragment_base.xml" value="0.1" />
+        <entry key="..\:/MyCalculator/app/src/main/res/layout/fragment_scientific.xml" value="0.1" />
       </map>
     </option>
   </component>
